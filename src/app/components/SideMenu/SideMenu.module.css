@@ -1,0 +1,55 @@
+.container {
+    height: 100vh;
+    min-width: 220px;
+    background-color: #ffff;
+    padding:0px 10px 10px 0px;
+}
+
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.userImage {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.container ul {
+    padding: 5px;
+}
+
+.userName {
+    font-weight: bold; 
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.menuButton {
+    z-index: 100;
+    position: fixed;
+    border: none;
+    border-radius: 0px 10px 10px 10px;
+    background-color: #ffff;
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        z-index: 100;
+        position: fixed;
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .userImage {
+        height: 150px;
+        width: 150px;
+    }
+}

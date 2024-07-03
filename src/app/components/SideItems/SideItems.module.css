@@ -1,0 +1,47 @@
+.container {
+    list-style: none;
+}
+
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #1d3557;
+    margin: 5px 0px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.optionText {
+    margin-left: 10px;
+    color: #1d3557;
+    transition: color 0.5s ease;
+}
+
+.option:hover {
+    background: linear-gradient(90deg, #457b9d, #1d3557);
+    color: #fff;
+}
+
+.option:hover .optionText {
+    color: #fff;
+}
+
+.selected {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #1d3557;
+    margin: 5px 0px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #457b9d, #1d3557);
+    color: #fff;
+}
+
+.selectedText {
+    margin-left: 10px;
+    color: #fff;
+}
